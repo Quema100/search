@@ -14,5 +14,15 @@ if(consoles != null){
 var a=alert("Y=3,X=1에 가시면 깃허브로 바로가실수 있어요")
 var b=alert("Y=3,X=2에 가시면 구글로 바로가실수 있어요")
 var c=alert("Y=3,X=3에 가시면 유튜브로 바로가실수 있어요")
-var d=alert("Y=2,X=3에 가시면 유튜브로 바로가실수 있어요")
-var e=alert("Y=1,X=3에 가시면 유튜브로 바로가실수 있어요")
+var d=alert("Y=2,X=3에 가시면 뒤로 가실수 있어요")
+
+
+if (get_x()===1&&get_y()===3) {
+	window.location.href=""
+} else if (get_x()===2&&get_y()===3) {
+	
+} else if (get_x()===3&&get_y()===3) {
+	
+} else if (get_x()===3&&get_y()===2) {
+		
+} 

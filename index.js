@@ -18,11 +18,12 @@ var d=alert("Y=2,X=3에 가시면 뒤로 가실수 있어요")
 
 
 if (get_x()===1&&get_y()===3) {
-	window.location.href=""
+    window.location.href="https://github.com/"
 } else if (get_x()===2&&get_y()===3) {
-	
+	window.location.href="https://www.google.co.kr/"
 } else if (get_x()===3&&get_y()===3) {
-	
+	window.location.href="https://www.youtube.com/"
 } else if (get_x()===3&&get_y()===2) {
-		
+	window.history.back()	
 } 
+
